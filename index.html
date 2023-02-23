@@ -204,6 +204,39 @@ digunakan untuk memonitoring dan memantau stok makanan berhasil dengan baik.
 </div>
 </div>
 
+<section id="my-hobby">
+  <div class="container">
+    <div class="row text-center mb-3">
+      <div class="col">
+        <h2>My Hobby</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 col-lg-4 mb-3">
+        <div class="hobby-box">
+          <h4 class="hobby-name">Membaca</h4>
+          <img src="img/hobby/membaca1.png" alt="Membaca" class="hobby-img">
+         <a href="#" class="btn btn-light hobby-detail-button">Show Details</a>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 mb-3">
+        <div class="hobby-box">
+          <h4 class="hobby-name">Mendengarkan Music</h4>
+          <img src="img/hobby/music.png" alt="Mendengarkan Music" class="hobby-img">
+         <a href="#" class="btn btn-light hobby-detail-button">Show Details</a>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 mb-3">
+        <div class="hobby-box">
+          <h4 class="hobby-name">Ngoding</h4>
+          <img src="img/hobby/programer.jpeg" alt="programer" class="hobby-img">
+         <a href="#" class="btn btn-light hobby-detail-button">Show Details</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,192L60,186.7C120,181,240,171,360,192C480,213,600,267,720,288C840,309,960,299,1080,266.7C1200,235,1320,181,1380,154.7L1440,128L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
     </section>
     <!-- Akhir Project-->
@@ -305,6 +338,9 @@ digunakan untuk memonitoring dan memantau stok makanan berhasil dengan baik.
             </form>
           </div>
       </div>
+      </div>
+    </div>
+  </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0d6efd" fill-opacity="1" d="M0,160L48,138.7C96,117,192,75,288,90.7C384,107,480,181,576,224C672,267,768,277,864,282.7C960,288,1056,288,1152,261.3C1248,235,1344,181,1392,154.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
     </section>
     <!-- Akhir Contact -->
@@ -376,5 +412,14 @@ digunakan untuk memonitoring dan memantau stok makanan berhasil dengan baik.
           .catch(error => console.error('Error!', error.message))
       })
     </script>
+
+<script type="text/javascript" src="js/vanilla-tilt.min.js"></script>
+<script type="text/javascript">
+	VanillaTilt.init(document.querySelectorAll(".hobby-box"), {
+		max: 25,
+		speed: 400,
+    glare: true,
+	});
+</script>
   </body>
 </html>
